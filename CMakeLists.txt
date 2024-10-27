@@ -13,6 +13,12 @@ set(SOURCES
     main.cpp
 )
 
+set(HEADERS
+    include/DDos.hpp
+    include/Displayer.hpp
+    include/ipaddrlkup.hpp
+)
+
 # Include CPR using FetchContent
 include(FetchContent)
 FetchContent_Declare(cpr
@@ -25,13 +31,6 @@ add_executable(SkidToolSet ${SOURCES})
 
 # Link CPR to the executable
 target_link_libraries(SkidToolSet PRIVATE cpr::cpr)
-
-# Add the header files
-set(HEADERS
-    include/DDos.hpp
-    include/Displayer.hpp
-    include/ipaddrlkup.hpp
-)
 
 # Add the header files to the include path
 target_include_directories(SkidToolSet PUBLIC ${CMAKE_CURRENT_SOURCE_DIR} include)
