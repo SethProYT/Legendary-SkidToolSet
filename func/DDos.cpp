@@ -54,14 +54,14 @@ void DDosInit(bool self) {
         char answer2;
         int threads;
 
-        std::cout << "Enter IP Address: " << std::endl;
+        std::cout << "Enter IP Address: ";
         std::cin >> ipaddr;
-        std::cout << "Enter number of pings: " << std::endl;
+        std::cout << "Enter number of pings: ";
         std::cin >> pings;
-        std::cout << "Threads y/n: " << std::endl;
+        std::cout << "Threads y/n: ";
         std::cin >> answer2;
         if (answer2 == 'y') {
-            std::cout << "Enter number of threads: " << std::endl;
+            std::cout << "Enter number of threads: ";
             std::cin >> threads;
             ThreadHandler(pings, ipaddr, true, threads);
         } else {

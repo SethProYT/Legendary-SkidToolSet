@@ -6,7 +6,8 @@
 void display()  {
     std::cout << "Current set of features: " << std::endl;
     std::cout << "1. DDos" << std::endl;
-    
+    std::cout << "2. Exit" << std::endl;
+    std::cout << "Type here: ";
     char answer;
     std::cin >> answer;
 
