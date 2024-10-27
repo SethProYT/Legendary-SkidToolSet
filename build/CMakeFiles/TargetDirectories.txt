@@ -1,0 +1,3 @@
+/home/fedorav3/C++/SkidToolSet/build/CMakeFiles/SkidToolSet.dir
+/home/fedorav3/C++/SkidToolSet/build/CMakeFiles/edit_cache.dir
+/home/fedorav3/C++/SkidToolSet/build/CMakeFiles/rebuild_cache.dir

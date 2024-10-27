@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/SkidToolSet.dir/func/DDos.cpp.o CMakeFiles/SkidToolSet.dir/func/displayer.cpp.o CMakeFiles/SkidToolSet.dir/main.cpp.o -o SkidToolSet
