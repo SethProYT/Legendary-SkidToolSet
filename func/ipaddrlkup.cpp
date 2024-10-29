@@ -24,8 +24,6 @@ int ipaddressget(const std::string &ipaddr) {
     return 0;
 }
 
-
-
 void ipaddrinit() {
     std::string ipaddress;
     std::cout << "Enter IP Address: ";
