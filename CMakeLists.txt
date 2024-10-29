@@ -9,6 +9,7 @@ set(SOURCES
     func/displayer.cpp
     func/ipaddrlkup.cpp
     func/doxcreator.cpp
+    func/randipgen.cpp
     main.cpp
 )
 
@@ -17,6 +18,7 @@ set(HEADERS
     helpers/Displayer.hpp
     include/ipaddrlkup.hpp
     include/doxcreator.hpp
+    include/randipgen.hpp
 )
 
 # Include CPR using FetchContent
