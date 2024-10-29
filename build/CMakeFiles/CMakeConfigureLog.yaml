@@ -7190,3 +7190,747 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_dcb6d
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_dcb6d.dir/detect-arch.c.o -MF CMakeFiles/cmTC_dcb6d.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_dcb6d.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_dcb6d.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_dcb6d.dir/detect-arch.c.o -MF CMakeFiles/cmTC_dcb6d.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_dcb6d.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_e7bc1
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_e7bc1.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_e7bc1.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_e7bc1.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_e7bc1.dir/std_fs_support_test.cpp.o -o cmTC_e7bc1   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_02a0b
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_02a0b.dir/detect-arch.c.o -MF CMakeFiles/cmTC_02a0b.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_02a0b.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_02a0b.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_02a0b.dir/detect-arch.c.o -MF CMakeFiles/cmTC_02a0b.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_02a0b.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_2126a
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_2126a.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_2126a.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_2126a.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_2126a.dir/std_fs_support_test.cpp.o -o cmTC_2126a   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_74d96
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_74d96.dir/detect-arch.c.o -MF CMakeFiles/cmTC_74d96.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_74d96.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_74d96.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_74d96.dir/detect-arch.c.o -MF CMakeFiles/cmTC_74d96.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_74d96.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_095f2
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_095f2.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_095f2.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_095f2.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_095f2.dir/std_fs_support_test.cpp.o -o cmTC_095f2   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_c15eb
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_c15eb.dir/detect-arch.c.o -MF CMakeFiles/cmTC_c15eb.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_c15eb.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_c15eb.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_c15eb.dir/detect-arch.c.o -MF CMakeFiles/cmTC_c15eb.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_c15eb.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_0ed15
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_0ed15.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_0ed15.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_0ed15.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_0ed15.dir/std_fs_support_test.cpp.o -o cmTC_0ed15   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_74434
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_74434.dir/detect-arch.c.o -MF CMakeFiles/cmTC_74434.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_74434.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_74434.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_74434.dir/detect-arch.c.o -MF CMakeFiles/cmTC_74434.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_74434.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_a44a2
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_a44a2.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_a44a2.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_a44a2.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_a44a2.dir/std_fs_support_test.cpp.o -o cmTC_a44a2   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_17920
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_17920.dir/detect-arch.c.o -MF CMakeFiles/cmTC_17920.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_17920.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_17920.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_17920.dir/detect-arch.c.o -MF CMakeFiles/cmTC_17920.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_17920.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_c58ce
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_c58ce.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_c58ce.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_c58ce.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_c58ce.dir/std_fs_support_test.cpp.o -o cmTC_c58ce   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_e205f
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_e205f.dir/detect-arch.c.o -MF CMakeFiles/cmTC_e205f.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_e205f.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_e205f.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_e205f.dir/detect-arch.c.o -MF CMakeFiles/cmTC_e205f.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_e205f.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_6a4f7
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_6a4f7.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_6a4f7.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_6a4f7.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_6a4f7.dir/std_fs_support_test.cpp.o -o cmTC_6a4f7   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_03da1
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_03da1.dir/detect-arch.c.o -MF CMakeFiles/cmTC_03da1.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_03da1.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_03da1.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_03da1.dir/detect-arch.c.o -MF CMakeFiles/cmTC_03da1.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_03da1.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_d74a4
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_d74a4.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_d74a4.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_d74a4.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_d74a4.dir/std_fs_support_test.cpp.o -o cmTC_d74a4   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_1eaf5
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_1eaf5.dir/detect-arch.c.o -MF CMakeFiles/cmTC_1eaf5.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_1eaf5.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_1eaf5.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_1eaf5.dir/detect-arch.c.o -MF CMakeFiles/cmTC_1eaf5.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_1eaf5.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_6929f
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_6929f.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_6929f.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_6929f.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_6929f.dir/std_fs_support_test.cpp.o -o cmTC_6929f   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_b8109
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_b8109.dir/detect-arch.c.o -MF CMakeFiles/cmTC_b8109.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_b8109.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_b8109.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_b8109.dir/detect-arch.c.o -MF CMakeFiles/cmTC_b8109.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_b8109.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_0ff6d
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_0ff6d.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_0ff6d.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_0ff6d.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_0ff6d.dir/std_fs_support_test.cpp.o -o cmTC_0ff6d   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_f9e1f
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_f9e1f.dir/detect-arch.c.o -MF CMakeFiles/cmTC_f9e1f.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_f9e1f.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_f9e1f.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_f9e1f.dir/detect-arch.c.o -MF CMakeFiles/cmTC_f9e1f.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_f9e1f.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_c317e
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_c317e.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_c317e.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_c317e.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_c317e.dir/std_fs_support_test.cpp.o -o cmTC_c317e   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/zlib-src/cmake/detect-arch.cmake:26 (try_run)"
+      - "build/_deps/zlib-src/CMakeLists.txt:47 (include)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_04e8e
+        [1/2] /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_04e8e.dir/detect-arch.c.o -MF CMakeFiles/cmTC_04e8e.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_04e8e.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        FAILED: CMakeFiles/cmTC_04e8e.dir/detect-arch.c.o 
+        /usr/lib/llvm/19/bin/clang   -std=c11 -MD -MT CMakeFiles/cmTC_04e8e.dir/detect-arch.c.o -MF CMakeFiles/cmTC_04e8e.dir/detect-arch.c.o.d -o CMakeFiles/cmTC_04e8e.dir/detect-arch.c.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c
+        /home/fedorav3/C++/SkidToolSet/build/_deps/zlib-src/cmake/detect-arch.c:8:6: error: archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:62 (try_compile)"
+    directories:
+      source: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/19/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fedorav3/C++/SkidToolSet/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_68ade
+        [1/2] /usr/lib/llvm/19/bin/clang++   -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  -std=c++17 -MD -MT CMakeFiles/cmTC_68ade.dir/std_fs_support_test.cpp.o -MF CMakeFiles/cmTC_68ade.dir/std_fs_support_test.cpp.o.d -o CMakeFiles/cmTC_68ade.dir/std_fs_support_test.cpp.o -c /home/fedorav3/C++/SkidToolSet/build/_deps/cpr-src/cmake/std_fs_support_test.cpp
+        [2/2] : && /usr/lib/llvm/19/bin/clang++ -Wall -Wextra -Wpedantic -Werror -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-nonportable-system-include-path -Wno-exit-time-destructors -Wno-undef -Wno-global-constructors -Wno-switch-enum -Wno-old-style-cast -Wno-covered-switch-default -Wno-undefined-func-template  CMakeFiles/cmTC_68ade.dir/std_fs_support_test.cpp.o -o cmTC_68ade   && :
+        
+      exitCode: 0
+...

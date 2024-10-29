@@ -1,14 +1,16 @@
 #include <iostream>
 #include <string>
 #include "include/DDos.hpp"
-#include "include/Displayer.hpp"
+#include "helpers/Displayer.hpp"
 #include "include/ipaddrlkup.hpp"
+#include "include/doxcreator.hpp"
 
 void display()  {
     std::cout << "Current set of features: " << std::endl;
     std::cout << "1. DDos" << std::endl;
     std::cout << "2. IP Address Lookup" << std::endl;
-    std::cout << "3. Exit" << std::endl;
+    std::cout << "3. Dox Creator" << std::endl;
+    std::cout << "4. Exit" << std::endl;
     std::cout << "Type here: ";
     char answer;
     std::cin >> answer;
@@ -21,6 +23,9 @@ void display()  {
             ipaddrinit();
             break;
         case '3':
+            doxcreator();
+            break;
+        case '4':
             return;
             break;
         default:
