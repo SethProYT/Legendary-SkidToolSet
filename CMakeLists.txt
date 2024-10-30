@@ -28,8 +28,13 @@ FetchContent_Declare(cpr
     GIT_TAG bb01c8db702fb41e5497aee9c0559ddf4bf13749)  
 FetchContent_MakeAvailable(cpr)
 
-add_executable(SkidToolSet ${SOURCES})
+# Nlohmann JSON
+FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.11.3/json.tar.xz)
+FetchContent_MakeAvailable(json)
+
+add_executable(SkidToolSet ${SOURCES} ${HEADERS})
 
 target_link_libraries(SkidToolSet PRIVATE cpr::cpr)
+target_link_libraries(SkidToolSet PRIVATE nlohmann_json::nlohmann_json)
 
-target_include_directories(SkidToolSet PUBLIC ${CMAKE_CURRENT_SOURCE_DIR} include)
+target_include_directories(SkidToolSet PUBLIC ${CMAKE_CURRENT_SOURCE_DIR} include helpers)
