@@ -1,4 +1,7 @@
-#include "include/randipgen.hpp"
+#include <iostream>
+#include <random>
+#include <string>
+
 void randipgen() {
     std::random_device rd;
     std::mt19937 gen(rd());

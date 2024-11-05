@@ -1,4 +1,7 @@
-#include "include/ipaddrlkup.hpp"
+#include <cpr/cpr.h>
+#include <string>
+#include <iostream>
+#include <nlohmann/json.hpp>
 
 int ipaddressget(const std::string &ipaddr) {
     auto response = cpr::Get(cpr::Url{"https://ipinfo.io/" + ipaddr + "/json"});

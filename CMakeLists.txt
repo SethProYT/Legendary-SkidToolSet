@@ -5,31 +5,27 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 set(SOURCES
-    func/DDos.cpp
-    func/displayer.cpp
-    func/ipaddrlkup.cpp
-    func/doxcreator.cpp
-    func/randipgen.cpp
     main.cpp
 )
 
 set(HEADERS
-    include/DDos.hpp
-    helpers/Displayer.hpp
-    include/ipaddrlkup.hpp
-    include/doxcreator.hpp
-    include/randipgen.hpp
+    func/DDos.hpp
+    func/displayer.hpp
+    func/doxcreator.hpp
+    func/ipaddrlkup.hpp
+    func/randipgen.hpp
 )
 
 # Include CPR using FetchContent
 include(FetchContent)
 FetchContent_Declare(cpr
     GIT_REPOSITORY https://github.com/libcpr/cpr.git
-    GIT_TAG bb01c8db702fb41e5497aee9c0559ddf4bf13749)  
+    GIT_TAG bb01c8db702fb41e5497aee9c0559ddf4bf13749
+    DOWNLOAD_EXTRACT_TIMESTAMP TRUE)  
 FetchContent_MakeAvailable(cpr)
 
 # Nlohmann JSON
-FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.11.3/json.tar.xz)
+FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.11.3/json.tar.xz DOWNLOAD_EXTRACT_TIMESTAMP TRUE)
 FetchContent_MakeAvailable(json)
 
 add_executable(SkidToolSet ${SOURCES} ${HEADERS})

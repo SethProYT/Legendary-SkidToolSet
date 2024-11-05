@@ -1,4 +1,21 @@
-#include "include/doxcreator.hpp"
+#include <iostream>
+#include <vector>
+
+void collectData(std::vector<std::string>& data, const std::string& prompt) {
+    bool toggle = false;
+    while (toggle == false) {
+        std::cout << prompt << ": ";
+        std::string item;
+        std::getline(std::cin, item);
+        data.push_back(item);
+        std::cout << "More " << prompt << "? y/n: ";
+        std::string answer;
+        std::getline(std::cin, answer);
+        if (answer == "n") {
+            toggle = true;
+        }
+    }
+}
 
 void doxcreator() {
     // Information variables
@@ -60,18 +77,4 @@ void doxcreator() {
     }
 }
 
-void collectData(std::vector<std::string>& data, const std::string& prompt) {
-    bool toggle = false;
-    while (toggle == false) {
-        std::cout << prompt << ": ";
-        std::string item;
-        std::getline(std::cin, item);
-        data.push_back(item);
-        std::cout << "More " << prompt << "? y/n: ";
-        std::string answer;
-        std::getline(std::cin, answer);
-        if (answer == "n") {
-            toggle = true;
-        }
-    }
-}
+

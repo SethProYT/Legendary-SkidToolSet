@@ -1,10 +1,11 @@
+#pragma once
+
 #include <iostream>
-#include <string>
-#include "include/DDos.hpp"
-#include "helpers/Displayer.hpp"
-#include "include/ipaddrlkup.hpp"
-#include "include/doxcreator.hpp"
-#include "include/randipgen.hpp"
+#include "DDos.hpp"
+#include "doxcreator.hpp"
+#include "ipaddrlkup.hpp"
+#include "randipgen.hpp"
+
 
 void display()  {
     std::cout << "Current set of features: " << std::endl;
